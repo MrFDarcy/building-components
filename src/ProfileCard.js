@@ -1,7 +1,13 @@
-function ProfileCard() {
-    return (<div>
-        <h1>Profile Card</h1>
-    </div>
+function ProfileCard({ title, handle }) {
+    return (
+        <div>
+            <div>
+                Title : {title}
+            </div>
+            <div>
+                Handle : {handle}
+            </div>
+        </div>
     )
 }
 
